@@ -1,11 +1,10 @@
-function App() {
+import React from 'react';
+import AppRoutes from './routes/AppRoutes';
+
+export default function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <h1 className="text-3xl font-bold text-blue-600">
-        Digital Library 📚
-      </h1>
+    <div className="App">
+      <AppRoutes />
     </div>
   );
 }
-
-export default App;
