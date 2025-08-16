@@ -35,6 +35,8 @@ export default function Home() {
           { name: 'Home', href: '/' },
           { name: 'Library', href: '/library' },
           { name: 'About', href: '/about' },
+          { name: 'Login', href: '/login' },
+
         ]}
       />
 

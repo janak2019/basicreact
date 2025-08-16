@@ -22,7 +22,7 @@ export default function Login() {
     if (email === 'user@example.com' && password === 'password123') {
       setError('');
       alert('Login successful!');
-      navigate('/');
+      navigate('/profile');
     } else {
       setError('Invalid email or password.');
     }
