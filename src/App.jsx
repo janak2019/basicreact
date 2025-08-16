@@ -1,10 +1,21 @@
 import React from 'react'
+import { BrowserRouter, Routes,Route} from 'react-router-dom'
+import Home from './pages/home/Home'
+import Form from './components/Form/Form'
 
 const App = () => {
   return (
-    <h1 className="text-3xl font-bold ">
-Hello world!
-</h1>
+   
+   
+   <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home/>} />
+      <Route path='/login' element={<Form/>} />
+
+
+    </Routes>
+   
+   </BrowserRouter>
   )
 }
 
